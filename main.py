@@ -1,7 +1,9 @@
-def is_even(num: int) -> bool:
-    return num % 2 == 0
+def is_polindrome(s: str) -> bool:
+    s = s.lower().replace(" ", "")
+    return s ==s[::-1]
+print(is_polindrome("А роза упала на лапу Азора"))
+print((is_polindrome("Это не палиндром")))
 
-print(is_even(4))
-print(is_even(7))
+
 
 
