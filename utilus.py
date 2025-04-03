@@ -1,3 +1,2 @@
-def calculate_sum(a, b, c=0):
-    print(f'{a + b +c}')
-    return a + b + c
+def calculate_sum(a, c, d):
+    return a + c + d
