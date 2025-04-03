@@ -1,2 +1,2 @@
-def calculate_sum(a, c, d):
-    return a + c + d
+def del(a / b):
+    return a / b
